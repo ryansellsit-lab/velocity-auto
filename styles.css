@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Velocity Auto | Burnaby BC Auto Repair & Service</title>
+    <meta
+      name="description"
+      content="Velocity Auto is a trusted mechanic shop in Burnaby, BC, offering diagnostics, repairs, maintenance, tire service, and fleet care."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container nav">
+        <a href="#top" class="brand" aria-label="Velocity Auto home">
+          <span class="brand-mark">V</span>
+          <span>
+            <strong>VELOCITY</strong>
+            <small>AUTO</small>
+          </span>
+        </a>
+
+        <nav class="main-nav" aria-label="Main navigation">
+          <a href="#services">Services</a>
+          <a href="#why-us">Why Us</a>
+          <a href="#about">About</a>
+          <a href="#reviews">Reviews</a>
+          <a href="#contact">Contact</a>
+        </nav>
+
+        <a href="#contact" class="btn btn-primary">Book Appointment</a>
+      </div>
+    </header>
+
+    <main id="top">
+      <section class="hero">
+        <div class="container hero-layout">
+          <div class="hero-copy">
+            <span class="eyebrow">Burnaby, BC auto repair specialists</span>
+            <h1>Honest repairs. Reliable service. Velocity that keeps you moving.</h1>
+            <p>
+              Velocity Auto is your local mechanic shop for trusted diagnostics,
+              routine maintenance, brake and suspension work, and repair solutions that
+              keep your vehicle safe and dependable.
+            </p>
+            <div class="cta-row">
+              <a href="#contact" class="btn btn-primary">Request a quote</a>
+              <a href="#services" class="btn btn-secondary">Explore services</a>
+            </div>
+
+            <ul class="hero-badges" aria-label="Shop benefits">
+              <li>ASE-style workmanship</li>
+              <li>Same-week appointments</li>
+              <li>Transparent pricing</li>
+            </ul>
+          </div>
+
+          <div class="hero-card">
+            <div class="hero-card-head">
+              <span class="status-dot"></span>
+              <span>Open for service</span>
+            </div>
+
+            <div class="card-panel">
+              <div class="service-row">
+                <span>Oil change</span>
+                <strong>from $59</strong>
+              </div>
+              <div class="service-row">
+                <span>Brake inspection</span>
+                <strong>from $89</strong>
+              </div>
+              <div class="service-row">
+                <span>Diagnostics</span>
+                <strong>from $129</strong>
+              </div>
+            </div>
+
+            <div class="mini-grid">
+              <div>
+                <strong>4.9/5</strong>
+                <span>Google rating</span>
+              </div>
+              <div>
+                <strong>1,200+</strong>
+                <span>Vehicles serviced</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="trust-bar">
+        <div class="container trust-strip">
+          <span>ASE-style repair standards</span>
+          <span>Fast turnarounds</span>
+          <span>Family-owned shop</span>
+          <span>Burnaby and Metro Vancouver</span>
+        </div>
+      </section>
+
+      <section id="services" class="section">
+        <div class="container">
+          <div class="section-heading">
+            <span class="eyebrow">Our services</span>
+            <h2>Auto care designed around your vehicle and your schedule.</h2>
+          </div>
+
+          <div class="service-grid">
+            <article class="service-card">
+              <div class="icon">🛠️</div>
+              <h3>General Repairs</h3>
+              <p>
+                From rattles and warning lights to larger mechanical issues, we diagnose
+                and repair problems with professionalism and care.
+              </p>
+            </article>
+
+            <article class="service-card">
+              <div class="icon">🔧</div>
+              <h3>Brake Service</h3>
+              <p>
+                Inspect, repair, and replace brake pads, rotors, calipers, and fluid to keep
+                your stopping power reliable.
+              </p>
+            </article>
+
+            <article class="service-card">
+              <div class="icon">⚙️</div>
+              <h3>Diagnostics</h3>
+              <p>
+                We use modern scanning tools to pinpoint issues quickly, reducing guesswork
+                and unnecessary repair costs.
+              </p>
+            </article>
+
+            <article class="service-card">
+              <div class="icon">🧰</div>
+              <h3>Maintenance</h3>
+              <p>
+                Stay ahead of wear and tear with oil changes, filter replacements, tune-ups,
+                and seasonal vehicle checks.
+              </p>
+            </article>
+
+            <article class="service-card">
+              <div class="icon">🚗</div>
+              <h3>Suspension & Steering</h3>
+              <p>
+                Improve handling, comfort, and safety with expert suspension and alignment
+                service for everyday driving.
+              </p>
+            </article>
+
+            <article class="service-card">
+              <div class="icon">🛞</div>
+              <h3>Tire & Wheel Service</h3>
+              <p>
+                Get rotating, balancing, replacements, and fitment advice that supports better
+                traction and longer tire life.
+              </p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section id="why-us" class="section alt-bg">
+        <div class="container two-col">
+          <div class="content-block">
+            <span class="eyebrow">Why drivers choose us</span>
+            <h2>Professional service with no pressure and no guesswork.</h2>
+            <p>
+              At Velocity Auto, we believe good repair work starts with clear communication.
+              We explain what your vehicle needs, why it matters, and what your options are
+              before any work begins.
+            </p>
+            <ul class="check-list">
+              <li>Transparent estimates and honest recommendations</li>
+              <li>Friendly, experienced service advisors</li>
+              <li>Repairs for cars, trucks, SUVs, and fleet vehicles</li>
+              <li>Convenient scheduling for Burnaby drivers</li>
+            </ul>
+          </div>
+
+          <div class="stats-card">
+            <div class="stat-item">
+              <strong>15+</strong>
+              <span>Years of hands-on experience</span>
+            </div>
+            <div class="stat-item">
+              <strong>Same day</strong>
+              <span>Available for select repairs</span>
+            </div>
+            <div class="stat-item">
+              <strong>7 days</strong>
+              <span>Flexible scheduling and support</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="about" class="section">
+        <div class="container about-grid">
+          <div class="about-image">
+            <img
+              src="https://images.unsplash.com/photo-1487754180451-c456f719a540?auto=format&fit=crop&w=1200&q=80"
+              alt="Mechanic working on car"
+            />
+          </div>
+
+          <div class="content-block">
+            <span class="eyebrow">About Velocity Auto</span>
+            <h2>Keeping Burnaby drivers safe, confident, and road-ready.</h2>
+            <p>
+              We’re a local mechanic shop built on practical service, dependable workmanship,
+              and a reputation for treating every customer like a neighbour. Whether you need
+              preventive maintenance or urgent repairs, we take pride in helping drivers keep
+              their vehicles reliable year-round.
+            </p>
+            <p>
+              Serving Burnaby and the broader Metro Vancouver area, Velocity Auto supports daily
+              commuters, families, and small business fleets with quality care and efficient
+              turnaround times.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section id="reviews" class="section alt-bg">
+        <div class="container">
+          <div class="section-heading">
+            <span class="eyebrow">Customer reviews</span>
+            <h2>Drivers trust us with their cars and their peace of mind.</h2>
+          </div>
+
+          <div class="review-grid">
+            <article class="review-card">
+              <div class="stars">★★★★★</div>
+              <p>
+                “Very honest shop. They explained exactly what was wrong with my car and gave me
+                a fair price. I’ll be back for all my maintenance.”
+              </p>
+              <div class="reviewer">
+                <strong>Sarah M.</strong>
+                <span>Burnaby</span>
+              </div>
+            </article>
+
+            <article class="review-card">
+              <div class="stars">★★★★★</div>
+              <p>
+                “Quick turnaround, friendly team, and they fixed my brakes without any pressure.
+                Great local mechanic shop.”
+              </p>
+              <div class="reviewer">
+                <strong>Daniel T.</strong>
+                <span>South Burnaby</span>
+              </div>
+            </article>
+
+            <article class="review-card">
+              <div class="stars">★★★★★</div>
+              <p>
+                “I’ve used them for oil changes and diagnostics. They are transparent, efficient,
+                and genuinely care about doing the job right.”
+              </p>
+              <div class="reviewer">
+                <strong>Melissa R.</strong>
+                <span>Burnaby Heights</span>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section id="contact" class="section">
+        <div class="container contact-wrap">
+          <div class="contact-card info-card">
+            <span class="eyebrow">Contact us</span>
+            <h2>Book your next service visit.</h2>
+            <ul class="contact-list">
+              <li>
+                <strong>Location</strong>
+                2140 Kingsway, Burnaby, BC
+              </li>
+              <li>
+                <strong>Call</strong>
+                (604) 555-0148
+              </li>
+              <li>
+                <strong>Email</strong>
+                service@velocityauto.ca
+              </li>
+              <li>
+                <strong>Hours</strong>
+                Mon-Sat: 8:00 AM – 6:00 PM
+              </li>
+            </ul>
+          </div>
+
+          <div class="contact-card form-card">
+            <form id="service-form">
+              <div class="field-row">
+                <input type="text" name="name" placeholder="Your Name" aria-label="Your Name" />
+              </div>
+              <div class="field-row">
+                <input type="tel" name="phone" placeholder="Phone Number" aria-label="Phone Number" />
+              </div>
+              <div class="field-row">
+                <input type="email" name="email" placeholder="Email Address" aria-label="Email Address" />
+              </div>
+              <div class="field-row">
+                <textarea
+                  name="message"
+                  rows="5"
+                  placeholder="Tell us about your vehicle or service needs"
+                  aria-label="Tell us about your vehicle or service needs"
+                ></textarea>
+              </div>
+              <button type="submit" class="btn btn-primary">Send request</button>
+            </form>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-row">
+        <div>© <span id="year"></span> Velocity Auto. All rights reserved.</div>
+        <div>Burnaby, BC Auto Repair & Service</div>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
